@@ -1,0 +1,264 @@
+body{
+    height: 200px;
+}
+.navbar .form-inline .xx{
+    border: 1px solid white;
+}
+#navbar{
+    background-image: linear-gradient(to right, rgba(0,171,211,0.6), rgba(0, 142, 185, 0.6));
+}
+.navbar-nav .nav-item:hover{
+border-bottom: 1px solid teal;
+
+
+}
+
+  
+/* carousel **************************************************/
+.carousel-inner{
+    height: auto;
+}
+.slider1 .carousel-item {
+    background-size: cover;
+}
+
+.slider1 .cro-one{
+    background-image: url(../images/corona-4970836_1920.jpg);
+}
+.slider1 .cro-tow{
+    background-image: url(../images/coronavirus-4914026_1920.jpg);
+}
+.slider1 .cro-three{
+    background-image: url(../images/psychiatrists-consultation.jpg);
+}
+
+.slider1 .cro-fure{
+    background-image: url(../images/man-in-despair.jpg);
+}
+.slider1 .cro-one .carousel-caption h5{
+   margin-bottom: 150px; 
+   font-size: 50px;
+   font-weight: bold;
+   
+   
+}
+.slider1 .cro-one .carousel-caption p{
+    margin-bottom: 120px; 
+    
+    
+ }
+
+/* carousel **************************************************/
+.border {
+    border: 1px solid #4285F4!important;
+}
+
+/* feture **************************************************/
+.feture i {
+    background-color: #2c3e50;
+    color: #fff;
+    width: 150px;
+    height: 150px;
+    line-height: 140px;
+    margin-bottom: 10px;
+    padding: 3px;
+    margin-top: 50px;
+}
+.feture h2{
+    color: #2c3e50;
+    font-weight: 400;
+}
+.feture p{
+    color: #2c3e50;
+    font-weight: 200;
+    margin-bottom: 40px;
+}
+.feture {
+    
+    background-color: #FAFAFA;
+}
+.feture .top1{
+    
+   margin-top: 50px;
+}
+
+/* feture **************************************************/
+
+.open-button {
+   color: black;
+  
+    padding: 16px 20px;
+    border: none;
+    cursor: pointer;
+    opacity: 0.8;
+    position: fixed;
+    bottom: 23px;
+    right: 28px;
+    width: 280px;
+    z-index: 9;
+  }
+  
+  /* The popup chat - hidden by default */
+  .chat-popup {
+    display: none;
+    position: fixed;
+    bottom: 0;
+    right: 15px;
+    
+    z-index: 9;
+  }
+  
+  /* Add styles to the form container */
+ .form-container {
+    max-width: 300px;
+    padding: 10px;
+    background-color: #ffffff;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+  }
+  
+  /* Full-width textarea */
+ .form-container textarea {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    border: none;
+    background: white;
+    resize: none;
+    min-height: 200px;
+  }
+  
+  /* When the textarea gets focus, do something */
+.form-container textarea:focus {
+    background-color: white;
+    outline: none;
+  }
+  
+  /* Set a style for the submit/send button */
+.form-container .btn {
+    
+    color: #28a745;
+    padding: 16px 20px;
+    border-color: #28a745;
+    cursor: pointer;
+    width: 100%;
+    margin-bottom:10px;
+    opacity: 0.8;
+    
+    
+  }
+  
+  /* Add a red background color to the cancel button */
+  .form-container .cancel {
+    
+    color: #dc3545;
+  border-color: #dc3545;
+  }
+  
+  /* Add some hover effects to buttons */
+.form-container .btn:hover, .open-button:hover {
+    opacity: 1;
+  }
+  /* company **************************************************/
+.company{
+   
+    padding: 50px;
+}
+.company h1{
+    font-size: 60px;
+    color: #2c3e50;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+.company p{
+    font-size: 20px;
+    /* font-weight: 500; */
+    color: #2c3e50;
+    width: 80%;
+    margin: auto;
+    line-height: 35px;
+    margin-bottom: 30px;
+}
+.company h4{
+    font-size: 35px;
+    color: #2c3e50;
+    font-weight: 100;
+    margin-bottom: 30px;
+}
+.company button{
+    background-color: #00A7CF;
+    color: #fff;
+    border: 1px solid #00A7CF;
+    border-radius: 10px;
+    font-size: 35px;
+    padding: 0 25px;
+    margin-bottom: 50px;
+    
+}
+/* company **************************************************/
+/* company **************************************************/
+.serves{
+    background-color: #FAFAFA;
+}
+
+.serves i {
+
+    background-color: white;
+    color: #2c3e50;
+    width: 200px;
+    height: 200px;
+    line-height: 180px;
+    box-shadow: 2px 2px 5px #b7b5b5;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    padding: 3px;
+    
+}
+.serves h2{
+    color: #2c3e50;
+    font-weight: 400;
+    padding-top: 70px;
+}
+/* company **************************************************/
+
+
+
+.up-footer{
+    background-image: linear-gradient(to right, rgba(0,171,211,1), rgba(0,141,185,1));
+    padding: 100px;
+}
+.up-footer ul li{
+    color: white;
+    margin-bottom: 20px;
+    list-style-type: none;
+    
+}
+.up-footer ul li a{
+    color: white;
+    margin-bottom: 20px;
+}
+.up-footer ul li a:hover{
+    text-decoration: none;
+    font-weight: bold;
+    
+}
+.up-footer .titel{
+    list-style-type: none;
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 20px;
+
+}
+.dw-footer{
+    background-image: linear-gradient(to right, rgba(0,171,211,1), rgba(0,141,185,1));
+    padding: 30px;
+    color: white;
+
+}
+
+
+
+
+
+/* company **************************************************/
+
